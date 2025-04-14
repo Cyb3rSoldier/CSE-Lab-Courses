@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body bgcolor="ivory">
+        <h1 align="center" style="color:brown;"><u>Registration For Programming Contest</u></h1>
+        <div style="background-color: tomato; padding: 100px;">
+            <form>
+                <strong>
+                    <label>First Name: &nbsp; &nbsp;</label>
+                    <input type="text" name="fname" placeholder="Enter your first name" required>
+                    <br><br>
+                    <label>Last Name: &nbsp; &nbsp;</label>
+                    <input type="text" name="lname" placeholder="Enter your last name" required>
+                    <br><br>
+                    <label>Team Name: &nbsp; &nbsp;</label>
+                    <input type="text" name="tname" placeholder="Enter your team name" required>
+                    <br><br>
+                    <label>Date of Birth: &nbsp; &nbsp;</label>
+                    <input type="date"  name="bdate" required>
+                    <br><br>
+                    <label>Gender: &nbsp; &nbsp;</label>
+                    <select name="gender" required>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+                    <br><br>
+                    <label>Institute: &nbsp; &nbsp;</label>
+                    <input type="text" name="Uname" placeholder="Enter Your University Name" required>
+                    <br><br>
+                    <label>Department:  &nbsp; &nbsp;</label><br><br>
+                    <input type="radio" name="chk1" value="CSE">&nbsp;CSE<br required>
+                    <input type="radio" name="chk1" value="IT">&nbsp;IT<br>
+                    <input type="radio" name="chk1" value="SE">&nbsp;SE<br>
+                    <input type="radio" name="chk1" value="CE">&nbsp;CE<br>
+                    <input type="radio" name="chk1" value="EEE">&nbsp;EEE<br>
+                    <input type="radio" name="chk1" value="ME">&nbsp;ME
+                    <br><br>
+                    <label>Semester: &nbsp; &nbsp;</label>
+                    <select name="year" required>
+                    <option>1st Semester</option>
+                    <option>2nd Semester</option>
+                    <option>3rd Semester</option>
+                    <option>4th Semester</option>
+                    <option>5th Semester</option>
+                    <option>6th Semester</option>
+                    <option>7th Semester</option>
+                    <option>8th Semester</option>
+                    </select>
+                    <br><br>
+                    <label for="language">The Programming languages you are proficient in: &nbsp;&nbsp;</label><br><br>
+                    <input type="checkbox" name="chk2" value="C">C &nbsp;
+                    <input type="checkbox" name="chk2" value="C++">C++ &nbsp;
+                    <input type="checkbox" name="chk2" value="Java">Java &nbsp;
+                    <input type="checkbox" name="chk2" value="Python">Python&nbsp;
+                    <input type="checkbox" name="chk2" value="PHP">PHP &nbsp;
+                    <input type="checkbox" name="chk2" value="Go">Go &nbsp;
+                    <input type="checkbox" name="chk2" value="Perl">Perl &nbsp;
+                    <br><Br>
+                    <label for="email">Email: &nbsp; &nbsp;</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <br><br>
+                    <label for="contact">Contact Number: &nbsp; &nbsp;</label>
+                    <input type="tel" id="cntct" name="cntct" placeholder="+880" required>
+                    <br><br>
+                    <label for="photo">Choose Your Photo: &nbsp; &nbsp;</label>
+                    <input type="file" id="photo" name="photo" required>
+                    <br><br>
+                    <label for="cv">Choose your CV or Short Bio: &nbsp;&nbsp;</label>
+                    <input type="file" id="cv" name="cv" required>
+                    <br><br>
+                    </strong>
+                    <center>
+                        <input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="reset" value="Reset">
+                    </center>
+        </div>
+    </body>
+</html>

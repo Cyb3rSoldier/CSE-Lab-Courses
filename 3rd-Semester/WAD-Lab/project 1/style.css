@@ -1,0 +1,28 @@
+P{
+color:red;
+}
+#para1{
+    color:blanchedalmond
+}
+#para3{
+    color:coral
+}
+body{
+    background-color:ivory;
+    background-image: url(image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    padding: 2px;
+    border-radius: 2px;
+    background-color: burlywood;
+    color:ivory
+}
+.myClass{
+    color:moccasin;
+    font-size:25px;
+    background-color: brown;
+    padding:5px;
+    border-radius: 5px;
+}

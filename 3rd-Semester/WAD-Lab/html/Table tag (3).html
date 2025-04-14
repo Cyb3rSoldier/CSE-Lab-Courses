@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Tag</title>
+    </head>
+    <body>
+        <p style="color:darkolivegreen;"><b>1. Empty Table:</b></p>
+        <table border="1" style="color:red;">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Contact</th>
+            </tr>
+            <tr>
+                <!--
+                use &nbsp or <br> for empty sell
+                -->
+                <td>&nbsp</td>
+                <td><br></td>
+                <td></td>
+            </tr>
+        </table>
+        <p style="color:darkolivegreen;"><b>2. Table Attribute:</b></p>
+        <!--
+        width="80%" or width="80px"
+        -->
+        <table border="1" height="250px" bgcolor="skyblue" width="80%" align="center" cellspacing="10" cellpadding="5">
+            <tr>
+                <th>Roll No.</th>
+                <th>Name</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Sakib</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Raihan</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Ismail</td>
+                <td>A-</td>
+            </tr>
+        </table>
+        <p style="color:brown;">3. colspan, rowspan:</p>
+        <table border="2" width="90%" align="right">
+            <tr bgcolor="red" style="color:white;">
+                <th align="left">Name</th>
+                <th colspan="3">Subjects</th>
+            </tr>
+            <tr>
+                <td >Omar</td>
+                <td rowspan="2" align="center">Physics</td>
+                <td rowspan="2">Chemistry</td>
+                <td rowspan="2" align="right">Math</td>
+            </tr>
+            <tr>
+                <td>Rakib</td>
+            </tr>
+        </table>
+        <!--
+        cellspacing = outside cell
+        cellpadding = inside cell
+        -->
+        <table border="2" cellspacing="10" cellpadding="5">
+            <caption style="color:blue;">4. colgroup,cellspacing,cellpadding</caption>
+            <colgroup>
+                <col span="2" style="background-color:yellow">
+                <col style="background-color: green"
+            </colgroup>
+            <tr>
+                <th>Title</th> 
+                <th>Author</th>
+                <th>Price</th>
+                <th>Review</th>
+            </tr>
+            <tr>
+                <td>ICT</td>
+                <td>Someone</td>
+                <td>200</td>
+                <td>5</td>
+            </tr>
+            <tr>
+            <td>Math</td>
+            <td>NoONe</td>
+            <td>100</td>
+            <td align="center" style="background-color:brown;">4.5</td>
+            </tr>
+        </table>
+    </body>
+</html>
