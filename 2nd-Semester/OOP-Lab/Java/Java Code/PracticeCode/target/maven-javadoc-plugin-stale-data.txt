@@ -1,0 +1,43 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'22'
+-sourcepath
+'C:/Users/Omar/OneDrive/Documents/Java/PracticeCode/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Omar/OneDrive/Documents/Java/PracticeCode/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'PracticeCode 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'PracticeCode 1.0-SNAPSHOT API'
+BeeCrowd
+com.mycompany.practicecode
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\src\main\java = 1726341625787
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\allclasses-index.html = 1729015566397
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\allpackages-index.html = 1729015566404
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\element-list = 1729015566182
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\help-doc.html = 1729015566532
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\index-all.html = 1729015566511
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\index.html = 1729015566374
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\member-search-index.js = 1729015566416
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\module-search-index.js = 1729015566411
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\overview-summary.html = 1729015566523
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\overview-tree.html = 1729015566369
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\package-search-index.js = 1729015566413
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\search.html = 1729015566519
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\tag-search-index.js = 1729015566423
+C:\Users\Omar\OneDrive\Documents\Java\PracticeCode\target\reports\apidocs\type-search-index.js = 1729015566414

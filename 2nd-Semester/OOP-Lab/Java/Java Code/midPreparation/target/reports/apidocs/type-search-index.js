@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"questionSolve","l":"factor"},{"p":"questionSolve","l":"factorial"},{"p":"id.midpreparation","l":"NewClass"},{"p":"id.midpreparation","l":"Student"},{"p":"questionSolve","l":"typeConversion"}];updateSearchResults();

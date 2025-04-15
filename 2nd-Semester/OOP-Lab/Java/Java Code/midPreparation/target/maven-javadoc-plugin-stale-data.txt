@@ -1,0 +1,43 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'22'
+-sourcepath
+'C:/Users/Omar/OneDrive/Documents/NetBeansProjects/midPreparation/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Omar/OneDrive/Documents/NetBeansProjects/midPreparation/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'midPreparation 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'midPreparation 1.0-SNAPSHOT API'
+id.midpreparation
+questionSolve
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\src\main\java = 1729443717935
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\allclasses-index.html = 1729448059454
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\allpackages-index.html = 1729448059458
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\element-list = 1729448059338
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\help-doc.html = 1729448059513
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\index-all.html = 1729448059494
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\index.html = 1729448059423
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\member-search-index.js = 1729448059466
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\module-search-index.js = 1729448059459
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\overview-summary.html = 1729448059507
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\overview-tree.html = 1729448059418
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\package-search-index.js = 1729448059460
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\search.html = 1729448059504
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\tag-search-index.js = 1729448059468
+C:\Users\Omar\OneDrive\Documents\NetBeansProjects\midPreparation\target\reports\apidocs\type-search-index.js = 1729448059465
