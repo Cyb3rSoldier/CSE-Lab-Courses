@@ -2,6 +2,8 @@
 using namespace std;
 #define Size 100
 
+//Stack: Last In First Out (LIFO)
+
 class Stack
 {
     int arr[Size];

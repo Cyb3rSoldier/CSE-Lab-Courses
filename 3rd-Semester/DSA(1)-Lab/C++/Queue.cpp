@@ -2,6 +2,7 @@
 using namespace std;
 #define size 100
 
+//Queue: First In First Out (FIFO)
 
 class Queue
 {
