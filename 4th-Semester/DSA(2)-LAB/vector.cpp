@@ -17,7 +17,7 @@ int main()
 
     //delete from back
     v.pop_back();
-    reverse(v.begin(),v.end(),100);
+    //reverse(v.begin(),v.end(),100);
 
     v2.push_back(10);
     v2.push_back(20);
