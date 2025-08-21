@@ -18,3 +18,20 @@
 </body>
 
 </html>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $num1 = $_POST['num1'];
+    $num2 = $_POST['num2'];
+    echo "Inputed Numbers: $num1 and $num2" . "<br>";
+    if ($num1 % 2 != 0) {
+        $num1 = $num1 * 2;
+    }
+    if ($num2 % 2 != 0) {
+        $num2 = $num2 * 2;
+    }
+    $sum = $num1 + $num2;
+    $sub = $num1 - $num2;
+    echo "Add: $sum" . " " . "Sub: $sub";
+}
+?>
