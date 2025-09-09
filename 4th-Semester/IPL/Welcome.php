@@ -10,3 +10,4 @@ if ($b != $pass) {
     echo '<script> alert("Welcome!")</script>';
     echo "Welcome to the Home page!";
 }
+?>
