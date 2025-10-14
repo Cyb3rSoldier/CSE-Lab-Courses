@@ -7,10 +7,10 @@ int main(){
     for(int i=0; i<n; i++){
         string word;
         cin>>word;
-        if(word=="x++" || word=="++x"){
+        if(word=="X++" || word=="++X"){
             count++;
         }
-        else if(word== "x--" || word=="--x"){
+        else if(word== "X--" || word=="--X"){
             count--;
         }
     }
