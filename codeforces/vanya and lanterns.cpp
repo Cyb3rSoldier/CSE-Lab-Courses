@@ -15,7 +15,13 @@ int main()
     {
         diff[i] = a[i+1]-a[i];
     }
-    float d = *max_element(diff.begin(), diff.end()) / 2.0;
-    cout<<d<<endl;
+    int max_gap = 0;
+    if(n>1)
+    {
+        max_gap = *max_element(diff.begin(),diff.end());
+    }
+    double d = max({(double)a[0], (double)l-a[n-1], max_gap /2.0 });
+    cout << fixed << setprecision(10) << d << endl;
+
     return 0;
 }
