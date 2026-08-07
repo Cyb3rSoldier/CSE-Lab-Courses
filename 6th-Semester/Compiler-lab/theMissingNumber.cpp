@@ -3,13 +3,13 @@ using namespace std;
 
 int main(){
     int n;
-    cout<<"Enter Limit:";
+    cout<<"Enter Limit: ";
     cin>>n;
     int arr[n];
     int sum = 0;
     int sum1 = 0;
 
-    cout<<"Numbers: ";
+    cout<<"nums = ";
     for(int i = 0; i<n; i++){
         cin>>arr[i];
         sum = arr[i]+sum;

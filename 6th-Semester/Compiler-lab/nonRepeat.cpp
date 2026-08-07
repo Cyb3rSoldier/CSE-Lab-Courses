@@ -5,8 +5,9 @@ int main()
 {
     string s;
     int c[26] = {0};
-    cout << "Enter a String: ";
+    cout << "s = ";
     cin >> s;
+    cout<<"output:\n";
     for (char ch : s)
     {
         c[ch - 'a']++;

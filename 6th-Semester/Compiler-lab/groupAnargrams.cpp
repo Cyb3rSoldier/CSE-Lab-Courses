@@ -29,7 +29,7 @@ int main()
         mp[key].push_back(word);
     }
 
-    cout << "Grouped Anagrams:\n";
+    cout << "Output:\n";
 
     for (auto group : mp)
     {
