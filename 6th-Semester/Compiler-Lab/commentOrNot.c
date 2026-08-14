@@ -8,16 +8,15 @@ int main()
     printf("Enter comment: ");
     fgets(com, sizeof(com), stdin);
 
-    for (int i = 0; i < strlen(com) - 1; i++)
-    {
-        if ((com[i] >= 'A' && com[i] <= 'Z') || (com[i] >= 'a' && com[i] <= 'z'))
-        {
-            count++;
-        }
-    }
-
     if (com[0] == '/')
     {
+        for (int i = 0; i < strlen(com) - 1; i++)
+        {
+            if ((com[i] >= 'A' && com[i] <= 'Z') || (com[i] >= 'a' && com[i] <= 'z'))
+            {
+                count++;
+            }
+        }
         if (com[1] == '/')
         {
             printf("It is a Single line Comment!");
