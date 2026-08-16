@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1786818845 source:c:\users\omar\onedrive\documents\cse-lab-courses\6th-semester\computer-graphics-and-multimedia-lab\draw a home\main.cpp
+1786900550 source:c:\users\omar\onedrive\documents\cse-lab-courses\6th-semester\computer-graphics-and-multimedia-lab\draw a home\main.cpp
 	<GLUT/glut.h>
 	<GL/glut.h>
 	<stdlib.h>

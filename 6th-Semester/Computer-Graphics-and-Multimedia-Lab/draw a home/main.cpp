@@ -67,12 +67,48 @@ void display()
     //========================
     // door line
     //========================
-    glLineWidth(2);
+    glLineWidth(1);
     glBegin(GL_LINES);
     glColor3f(1.6,0.6,0.0);
-    glVertex2f(0,0.1);
-    glVertex2f(0,-0.2);
+    glVertex2f(-0.007,0.1);
+    glVertex2f(-0.007,-0.2);
     glEnd();
+
+    glLineWidth(1);
+    glBegin(GL_LINES);
+    glColor3f(8.6,0.6,0.0);
+    glVertex2f(0.007,0.1);
+    glVertex2f(0.007,-0.2);
+    glEnd();
+
+    glLineWidth(1);
+    glBegin(GL_LINES);
+    glColor3f(8.6,0.6,0.0);
+    glVertex2f(0.007,-0.02);
+    glVertex2f(0.025,-0.02);
+    glEnd();
+
+    glLineWidth(1);
+    glBegin(GL_LINES);
+    glColor3f(8.6,0.6,0.0);
+    glVertex2f(0.025,-0.08);
+    glVertex2f(0.007,-0.08);
+    glEnd();
+
+    glLineWidth(1);
+    glBegin(GL_LINES);
+    glColor3f(8.6,0.6,0.0);
+    glVertex2f(0.025,-0.02);
+    glVertex2f(0.025,-0.08);
+    glEnd();
+
+    glLineWidth(1);
+    glBegin(GL_LINES);
+    glColor3f(8.6,0.6,0.0);
+    glVertex2f(0.025,-0.05);
+    glVertex2f(0.007,-0.05);
+    glEnd();
+
 
 
     //========================
