@@ -1,4 +1,4 @@
-.model small
+                      .model small
 .stack 100h
 .data 
 num1 db 018h     
