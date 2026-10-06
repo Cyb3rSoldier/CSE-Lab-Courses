@@ -1,0 +1,43 @@
+.MODEL SMALL
+.STACK 100H
+
+.DATA
+    NUM1 DB 5
+    NUM2 DB 8
+    NUM3 DB 3
+
+    MSG DB 'Biggest number is: $'
+
+.CODE
+MAIN PROC
+    MOV AX, @DATA
+    MOV DS, AX
+
+    MOV AL, NUM1
+
+    CMP AL, NUM2
+    JAE CHECK3
+    MOV AL, NUM2
+
+CHECK3:
+    CMP AL, NUM3
+    JAE PRINT
+    MOV AL, NUM3
+
+PRINT:
+    MOV BL, AL
+
+    LEA DX, MSG
+    MOV AH, 09H
+    INT 21H
+
+    MOV DL, BL
+    ADD DL, 30H
+    MOV AH, 02H
+    INT 21H
+
+    MOV AH, 4CH
+    INT 21H
+
+MAIN ENDP
+END MAIN
