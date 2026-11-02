@@ -1,0 +1,20 @@
+tika Simple arithmetic in Omar++
+
+dekhao 10 jog 5;                    tika addition
+dekhao 10 biyog 3;                  tika subtraction
+dekhao 6 gunon 7;                   tika multiplication
+dekhao 20 vagfol 4;                 tika division
+dekhao 7 vagfol 2;                  tika decimal result
+dekhao 17 vagshesh 5;               tika remainder
+dekhao 2 ghat 6;                    tika power
+dekhao mulok(144);                  tika square root
+
+tika precedence and brackets
+dekhao 2 jog 3 gunon 4;
+dekhao (2 jog 3) gunon 4;
+dekhao -5 jog -8;
+
+tika text works too
+dekhao "Result: ";
+dekhao "Omar" jog "++";
+shesh
