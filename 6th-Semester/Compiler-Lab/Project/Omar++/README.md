@@ -77,31 +77,3 @@ source.omar -> Lexer -> tokens -> Parser -> AST -> Interpreter -> output
 | `main.cpp` | reads the file and runs the pipeline |
 
 The whole file is lexed and parsed **before** anything runs, so a program with a syntax error prints nothing except the error.
-
-## Error messages
-
-Errors use the format `Error [line N]: message`.
-
-| Program | Error |
-|---|---|
-| `dekhao 5 jog;` | `expected a number, text, or '(', but found ';'` |
-| `dekhao 5 5;` | `expected ';' after the value, but found '5'` |
-| `dekhao (2 jog 3;` | `expected ')' to close the expression, but found ';'` |
-| `dekhao 5 @ 3;` | `unexpected character '@'` |
-| `dekhao "abc;` | `unterminated text (missing closing '"')` |
-| missing `shesh` | `missing 'shesh' at the end of the program` |
-| `dekhao 5 vagfol 0;` | `division by zero` |
-| `dekhao mulok(0 biyog 4);` | `cannot take 'mulok' of a negative number` |
-
-## Notes
-
-- All numbers are stored as `double`. Whole results print without a decimal point (`15`), others print with one (`3.5`).
-- Other keywords from the proposal (`dhoro`, `jodi`, `ghuro`, ...) are not implemented yet and currently give a syntax error.
-
-## Next milestones
-
-1. Variables: `purno x dhoro 10;` with a symbol table
-2. `jodi` / `onnothayjodi` / `nahole` and comparison operators
-3. Loops: `ghuro`, `cholteThako`, `thamo`, `chaliyejao`
-4. Functions: `kaj`, `ferot`
-5. Semantic analysis and three-address code output
