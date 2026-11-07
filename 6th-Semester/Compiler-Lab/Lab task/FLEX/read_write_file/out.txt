@@ -1,0 +1,31 @@
+#include <stdio.h>
+length: 18
+
+int x1, x2;
+length: 11
+
+float p1,p2;
+length: 12
+
+void main()
+length: 11
+
+{
+length: 1
+
+    printf("12345 \n");
+length: 23
+
+    printf("12.345 \n");
+length: 24
+
+}
+length: 1
+
+
+bracket
+	LP RP
+length: 6
+
+
+bracket
