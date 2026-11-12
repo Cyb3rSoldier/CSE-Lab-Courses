@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1793732588 source:c:\users\omar\onedrive\documents\cse-lab-courses\6th-semester\computer-graphics-and-multimedia-lab\project\2d animated traffic management system\main.cpp
-	<GL/glut.h>
-	<cmath>
-	<vector>
-
